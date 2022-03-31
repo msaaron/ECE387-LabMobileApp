@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var pressCount: Int = 0;
+    @State private var pressCount: Int = 0;  // variable to store press count
     var body: some View {
+        // Vertical stack to hold all of the components
         VStack {
+            // Some simple heading text
             Text("ECE 387")
                 .font(.largeTitle)
                 .fontWeight(.heavy)
@@ -21,7 +23,9 @@ struct ContentView: View {
                 .padding(.bottom)
                 
 
+            // Press counter text
             Text("Press count: \(pressCount)")
+            // Button that calls buttonPress()
             Button(action: buttonPress) {
                 Text("Press Me")
             }
@@ -30,6 +34,7 @@ struct ContentView: View {
         .padding()
     }
 
+    // Method called on button press
     func buttonPress() -> Void {
         pressCount += 1
     }

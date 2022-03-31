@@ -19,6 +19,7 @@
 		F035AF8627F5E3C6004C766A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F035AF8827F5E3CA004C766A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F035AF8B27F5E3CA004C766A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F08517B727F61C060066C6F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		F035AF7827F5E3C6004C766A = {
 			isa = PBXGroup;
 			children = (
+				F08517B727F61C060066C6F3 /* README.md */,
 				F035AF8327F5E3C6004C766A /* LabMobileApp */,
 				F035AF8227F5E3C6004C766A /* Products */,
 			);
